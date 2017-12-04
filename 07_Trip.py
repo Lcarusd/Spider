@@ -14,7 +14,7 @@ cates = soup.select("div.p13n_reasoning_v2")
 
 for title, img, cate in zip(titles, imgs, cates):
     data = {
-        "景点名称":title.get_text(),
-        "标签 ":list(cate.stripped_strings),
+        "景点名称": title.get_text(),
+        "标签 ": list(cate.stripped_strings),
     }
-	print(data)
+    print(data)

@@ -13,6 +13,7 @@ _session = requests.session()
 # 要匹配大于多少评论数的歌曲
 COMMENT_COUNT_LET = 100000
 
+
 class Song(object):
     def __lt__(self, other):
         return self.commentCount > other.commentCount
@@ -32,6 +33,7 @@ def rsaEncrypt(text, pubKey, modulus):
     text = text[::-1]
     rs = int(text.encode('hex'), 16) ** int(pubKey, 16) % int(modulus, 16)
     return format(rs, 'x').zfill(256)
+
 
 def createSecretKey(size):
     return (''.join(map(lambda xx: (hex(ord(xx))[2:]), os.urandom(size))))[0:16]
@@ -55,6 +57,7 @@ def getSongIdListBy3Party():
             songIdList.append(songId)
     return songIdList
 
+
 # 从官网的 发现-> 歌单 页面爬取网云音乐的所有歌曲ID
 def getSongIdList():
     pageMax = 42  # 要爬的页数，目前一共42页,爬完42页需要很久很久，可以根据需求选择性设置页数
@@ -71,11 +74,13 @@ def getSongIdList():
             ul = soup.find('ul', attrs={'class': 'f-hide'})
             for li in ul.findAll('li'):
                 songId = (li.find('a'))['href'].split('=')[1]
-                print '爬取歌曲ID成功 -> ' + songId
+                print
+                '爬取歌曲ID成功 -> ' + songId
                 songIdList.append(songId)
     # 歌单里难免有重复的歌曲，去一下重复的歌曲ID
     songIdList = list(set(songIdList))
     return songIdList
+
 
 # 匹配歌曲的评论数是否符合要求
 # let 评论数大于值
@@ -99,6 +104,7 @@ def matchSong(songId, let):
         song.commentCount = total
         return song
 
+
 # 设置歌曲的信息
 def setSongInfo(song):
     url = BASE_URL + 'song?id=' + str(song.id)
@@ -113,21 +119,27 @@ def setSongInfo(song):
         name = name[0:index]
     song.name = name
 
+
 # 获取符合条件的歌曲列表
 def getSongList():
-    print ' ##正在爬取歌曲编号... ##'
+    print
+    ' ##正在爬取歌曲编号... ##'
     # songIdList = getSongIdList()
     songIdList = getSongIdListBy3Party()
-    print ' ##爬取歌曲编号完成，共计爬取到' + str(len(songIdList)) + '首##'
+    print
+    ' ##爬取歌曲编号完成，共计爬取到' + str(len(songIdList)) + '首##'
     songList = []
-    print ' ##正在爬取符合评论数大于' + str(COMMENT_COUNT_LET) + '的歌曲... ##'
+    print
+    ' ##正在爬取符合评论数大于' + str(COMMENT_COUNT_LET) + '的歌曲... ##'
     for id in songIdList:
         song = matchSong(id, COMMENT_COUNT_LET)
         if None != song:
             setSongInfo(song)
             songList.append(song)
-            print '成功匹配一首{名称:', song.name, '-', song.singer, ',评论数:', song.commentCount, '}'
-    print ' ##爬取完成，符合条件的的共计' + str(len(songList)) + '首##'
+            print
+            '成功匹配一首{名称:', song.name, '-', song.singer, ',评论数:', song.commentCount, '}'
+    print
+    ' ##爬取完成，符合条件的的共计' + str(len(songList)) + '首##'
     return songList
 
 
@@ -139,10 +151,11 @@ def main():
     table = PrettyTable([u'排名', u'评论数', u'歌曲名称', u'歌手'])
     for index, song in enumerate(songList):
         table.add_row([index + 1, song.commentCount, song.name, song.singer])
-    print table
-    print 'End'
+    print
+    table
+    print
+    'End'
 
 
 if __name__ == '__main__':
     main()
-
