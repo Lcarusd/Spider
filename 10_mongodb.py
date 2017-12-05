@@ -13,14 +13,14 @@ with open(path, 'r') as f:
     lines = f.readlines()
     for index, line in enumerate(lines):
         data = {
-            'index':index,
-            'line':line,
-            'words':len(line.split()),
+            'index': index,
+            'line': line,
+            'words': len(line.split()),
         }
         sheet_tab.insert_one(data)
 
 # 将写入数据库的数据展示出来
 for item in sheet_tab.find():
     print(item['line'])
-for item in sheet_tab.find({'words':0}):
+for item in sheet_tab.find({'words': 0}):
     print(item)
