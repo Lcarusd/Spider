@@ -1,12 +1,5 @@
 # -*- coding:utf-8 -*-
 
-# =========================
-	Name:requests库的使用
-	
-# =========================
-
-
-
 import requests
 
 def getHTMLText(url, kv):
@@ -22,8 +15,3 @@ if __name__ == '__main__':
 	kv = {'user-agent':'Mozilla/5.0'}
 	url = input("请输入需要爬取的网址：")
 	print(getHTMLText(url, kv))
-
-
-# if __name__ == '__main__' 如何理解?
-# __name__ 是当前模块名，当模块被直接运行时模块名为 __main__ 。
-# 一个 Python 源码文件除了可以被直接运行外，还可以作为模块（也就是库）被导入。

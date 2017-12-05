@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 BASE_URL = 'http://music.163.com/'
 _session = requests.session()
 # 要匹配大于多少评论数的歌曲
-COMMENT_COUNT_LET = 100000
+COMMENT_COUNT_LET = 1000
 
 
 class Song(object):

@@ -34,17 +34,8 @@ def main():
     html = getHTMLText(url)
     fillUnivList(uinfo, html)
     printUnivList(uinfo, 21) # 20 univs
+
 main()
-
-
-# isinstance
-# 获取对象信息，判断对象类型。
-# if isinstance(tr, bs4.element.Tag)
-# 若tr对象为bs4.element.Tag类型，则为true
-
-# BeautiflulSoup类的学习
-# format方法的使用
-
 
 
 

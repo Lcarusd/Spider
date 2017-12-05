@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 
-#CrowTaobaoPrice.py
 import requests
 import re
  
