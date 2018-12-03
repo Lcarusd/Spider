@@ -1,13 +1,12 @@
 # -*- coding:utf-8 -*-
 
-# =========================
-# 	Name:requests库的使用
-	
-# =========================
-
-
-
 import requests
+
+
+'''
+requests库的使用
+'''
+
 
 def getHTMLText(url, kv):
 	try:

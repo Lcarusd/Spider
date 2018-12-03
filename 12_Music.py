@@ -41,14 +41,13 @@ def createSecretKey(size):
 # 这里偷了个懒直接从http://grri94kmi4.app.tianmaying.com/songs爬了，这哥们已经把官网的歌曲都爬过来了，省事不少
 # 也可以使用getSongIdList()从官方网站爬，相对比较耗时，但更准确
 def getSongIdListBy3Party():
-    pageMax = 1  # 要爬的页数，可以根据需求选择性设置页数
+    pageMax = 100  # 要爬的页数，可以根据需求选择性设置页数
     songIdList = []
     for page in range(pageMax):
         url = 'http://grri94kmi4.app.tianmaying.com/songs?page=' + str(page)
-        # print url
-        url.decode('utf-8')
+        print(url)
+        # url.decode('utf-8')
         soup = BeautifulSoup(_session.get(url).content)
-        # print soup
         aList = soup.findAll('a', attrs={'target': '_blank'})
         for a in aList:
             songId = a['href'].split('=')[1]
@@ -71,7 +70,7 @@ def getSongIdList():
             ul = soup.find('ul', attrs={'class': 'f-hide'})
             for li in ul.findAll('li'):
                 songId = (li.find('a'))['href'].split('=')[1]
-                print '爬取歌曲ID成功 -> ' + songId
+                print('爬取歌曲ID成功 -> ' + songId)
                 songIdList.append(songId)
     # 歌单里难免有重复的歌曲，去一下重复的歌曲ID
     songIdList = list(set(songIdList))
@@ -115,19 +114,18 @@ def setSongInfo(song):
 
 # 获取符合条件的歌曲列表
 def getSongList():
-    print ' ##正在爬取歌曲编号... ##'
-    # songIdList = getSongIdList()
+    print(' ##正在爬取歌曲编号... ##')
     songIdList = getSongIdListBy3Party()
-    print ' ##爬取歌曲编号完成，共计爬取到' + str(len(songIdList)) + '首##'
+    print(' ##爬取歌曲编号完成，共计爬取到' + str(len(songIdList)) + '首##')
     songList = []
-    print ' ##正在爬取符合评论数大于' + str(COMMENT_COUNT_LET) + '的歌曲... ##'
+    print(' ##正在爬取符合评论数大于' + str(COMMENT_COUNT_LET) + '的歌曲... ##')
     for id in songIdList:
         song = matchSong(id, COMMENT_COUNT_LET)
         if None != song:
             setSongInfo(song)
             songList.append(song)
-            print '成功匹配一首{名称:', song.name, '-', song.singer, ',评论数:', song.commentCount, '}'
-    print ' ##爬取完成，符合条件的的共计' + str(len(songList)) + '首##'
+            print('成功匹配一首{名称:', song.name, '-', song.singer, ',评论数:', song.commentCount, '}')
+    print(' ##爬取完成，符合条件的的共计' + str(len(songList)) + '首##')
     return songList
 
 
@@ -139,8 +137,8 @@ def main():
     table = PrettyTable([u'排名', u'评论数', u'歌曲名称', u'歌手'])
     for index, song in enumerate(songList):
         table.add_row([index + 1, song.commentCount, song.name, song.singer])
-    print table
-    print 'End'
+    print(table)
+    print('End')
 
 
 if __name__ == '__main__':

@@ -1,14 +1,17 @@
 # -*- coding:utf-8 -*-
 
+"""
+python version：3.7
+"""
+
 import requests
 
-keyword = input("请输入你要检索的关键字：")
+input_keyword = input("请输入你要检索的关键字：")
 
 try:
-	kv = {'wd':keyword}
+	kv = {'wd' : input_keyword}
 	r = requests.get("http://www.baidu.com/s", params=kv)
 	print(r.request.url)
 	r.raise_for_status()
-	print(len(r.text))
 except:
 	print("爬取失败！")
