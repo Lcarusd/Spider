@@ -4,4 +4,4 @@ from selenium import webdriver
  
 browser = webdriver.Chrome()
 
-browser.get(url)
+# browser.get(url)

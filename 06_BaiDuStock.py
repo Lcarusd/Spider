@@ -108,10 +108,10 @@ def getStockInfo(lst, stockURL, fpath):
             with open(fpath, 'a', encoding='utf-8') as f:
                 f.write( str(infoDict) + '\n' )
                 count = count + 1
-                print("\r当前进度: {:.2f}%".format(count*100/len(lst)),end="")
+                print "\r当前进度: {:.2f}%".format(count*100/len(lst)),end==""
         except:
             count = count + 1
-            print("\r当前进度: {:.2f}%".format(count*100/len(lst)),end="")
+            print("\r当前进度: {:.2f}%".format(count*100/len(lst)),end=="")
             continue
  
 def main():

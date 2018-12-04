@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import bs4
 
-# CrawUnivRankingA.py
+
 def getHTMLText(url):
     try:
         r = requests.get(url, timeout=30)
@@ -13,44 +13,27 @@ def getHTMLText(url):
         return r.text
     except:
         return ""
- 
+
+
 def fillUnivList(ulist, html):
     soup = BeautifulSoup(html, "html.parser")
     for tr in soup.find('tbody').children:
         if isinstance(tr, bs4.element.Tag):
             tds = tr('td')
             ulist.append([tds[0].string, tds[1].string, tds[3].string])
- 
+
+
 def printUnivList(ulist, num):
     tplt = "{0:^10}\t{1:{3}^10}\t{2:^10}"
     print(tplt.format("排名","学校名称","总分",chr(12288)))
     for i in range(num):
         u=ulist[i]
         print(tplt.format(u[0],u[1],u[2],chr(12288)))
-     
-def main():
+
+
+if __name__ == "__main__":
     uinfo = []
     url = 'http://www.zuihaodaxue.cn/zuihaodaxuepaiming2016.html'
     html = getHTMLText(url)
     fillUnivList(uinfo, html)
-    printUnivList(uinfo, 21) # 20 univs
-main()
-
-
-# isinstance
-# 获取对象信息，判断对象类型。
-# if isinstance(tr, bs4.element.Tag)
-# 若tr对象为bs4.element.Tag类型，则为true
-
-# BeautiflulSoup类的学习
-# format方法的使用
-
-
-
-
-
-
-
-
-
-
+    printUnivList(uinfo, 21)
