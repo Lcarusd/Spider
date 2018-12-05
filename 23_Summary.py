@@ -6,7 +6,7 @@ import re
 import time
 import pymongo
 from multiprocessing import Pool
-from urllib.Request import urllib2
+# from urllib.Request import urllib2
 from bs4 import BeautifulSoup
 
 # 初始化爬取链接

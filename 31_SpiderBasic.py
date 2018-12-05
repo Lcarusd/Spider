@@ -4,9 +4,9 @@ import urllib
 import sgmllib
 
 class handle_html(sgmllib.SGMLParser):
-	#unknown_starttag这个方法在任意的标签开始被解析时调用
-    #tag为标签名
-    #attrs表示标签的参赛
+	# unknown_starttag这个方法在任意的标签开始被解析时调用
+    # tag为标签名
+    # attrs表示标签的参赛
 
 	def unknown_starttag(self, tag, attrs):
 		print("-------" + tag + "start--------")
@@ -18,6 +18,6 @@ class handle_html(sgmllib.SGMLParser):
 
 web = urllib.urlopen("http://freebuf.com/")
 web_handler = handle_html()
-#数据传入解析器
+# 数据传入解析器
 web_handler.feed(web.read())
 

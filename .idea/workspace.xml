@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e153c960-a256-417d-b3ad-0874a2fae198" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lyric_analysis_of _wangfei.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_BaiDu.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_BaiDu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_University.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_University.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_BaiDuStock.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_BaiDuStock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25_Selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/25_Selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23_Summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/23_Summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/31_SpiderBasic.py" beforeDir="false" afterPath="$PROJECT_DIR$/31_SpiderBasic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,15 +17,25 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Spider$01_Requests.coverage" NAME="01_Requests Coverage Results" MODIFIED="1543913617174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Spider$03_University.coverage" NAME="03_University Coverage Results" MODIFIED="1543913838611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Spider$lyric_analysis_of__wangfei.coverage" NAME="lyric_analysis_of _wangfei Coverage Results" MODIFIED="1543985827005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Spider$30_Books.coverage" NAME="30_Books Coverage Results" MODIFIED="1543128745509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="08_SunnyBook.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_SunnyBook.py">
+      <file leaf-file-name="23_Summary.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/23_Summary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="57" />
+            <state relative-caret-position="-77">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_University.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_University.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -37,36 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="24_MeiPai.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/24_MeiPai.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="23_Summary.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/23_Summary.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="10_mongodb.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10_mongodb.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="09_KangRinpoche.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_KangRinpoche.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-202" />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="30_Books.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/30_Books.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="40">
               <caret line="6" column="29" selection-start-line="2" selection-end-line="6" selection-end-column="29" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
@@ -75,43 +55,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="34_BaiXing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/34_BaiXing.py">
+      <file leaf-file-name="27_AvImg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/27_AvImg.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="35_BilibiliTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/35_BilibiliTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+      <file leaf-file-name="36_Boss.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/36_Boss.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06_BaiDuStock.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06_BaiDuStock.py">
+      <file leaf-file-name="31_SpiderBasic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/31_SpiderBasic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2320">
-              <caret line="116" column="11" lean-forward="true" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+            <state relative-caret-position="40">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#1615#1630#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_Trip.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07_Trip.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="12_Music.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12_Music.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-139">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#16#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lyric_analysis_of _wangfei.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lyric_analysis_of _wangfei.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16_SplitTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/16_SplitTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-762" />
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>AES</find>
       <find>print</find>
+      <find>2018</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,6 +143,9 @@
         <option value="$PROJECT_DIR$/02_BaiDu.py" />
         <option value="$PROJECT_DIR$/03_University.py" />
         <option value="$PROJECT_DIR$/06_BaiDuStock.py" />
+        <option value="$PROJECT_DIR$/23_Summary.py" />
+        <option value="$PROJECT_DIR$/31_SpiderBasic.py" />
+        <option value="$PROJECT_DIR$/lyric_analysis_of _wangfei.py" />
       </list>
     </option>
   </component>
@@ -141,6 +161,9 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -166,6 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/donghao/Desktop/Spider/03_University.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -184,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.03_University">
+  <component name="RunManager" selected="Python.lyric_analysis_of _wangfei">
     <configuration name="01_Requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,13 +285,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="lyric_analysis_of _wangfei" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/2.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lyric_analysis_of _wangfei.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.30_Books" />
       <item itemvalue="Python.01_Requests" />
       <item itemvalue="Python.03_University" />
+      <item itemvalue="Python.lyric_analysis_of _wangfei" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lyric_analysis_of _wangfei" />
         <item itemvalue="Python.03_University" />
         <item itemvalue="Python.01_Requests" />
         <item itemvalue="Python.30_Books" />
@@ -294,17 +339,17 @@
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Version Control" order="5" weight="0.24555735" />
       <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.8551724" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32965517" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17770597" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
@@ -332,6 +377,74 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/23_Summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/28_ImgDown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#21#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_University.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30_Books.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="6" column="29" selection-start-line="2" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27_AvImg.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/36_Boss.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35_BilibiliTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/31_SpiderBasic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01_Requests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -466,29 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_SplitTest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12_Music.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/28_ImgDown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/25_Selenium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -510,16 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_University.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04_Re.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -530,9 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2320">
           <caret line="116" column="11" lean-forward="true" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
-          <folding>
-            <element signature="e#1615#1630#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,6 +631,16 @@
         <state relative-caret-position="-202" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/34_BaiXing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/35_BilibiliTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/24_MeiPai.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -564,9 +648,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/28_ImgDown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#21#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/30_Books.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="40">
           <caret line="6" column="29" selection-start-line="2" selection-end-line="6" selection-end-column="29" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
@@ -574,18 +668,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/34_BaiXing.py">
+    <entry file="file://$PROJECT_DIR$/27_AvImg.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/35_BilibiliTest.py">
+    <entry file="file://$PROJECT_DIR$/36_Boss.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/31_SpiderBasic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_Music.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_University.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/23_Summary.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lyric_analysis_of _wangfei.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_SplitTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762" />
+      </provider>
     </entry>
   </component>
 </project>
