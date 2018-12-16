@@ -6,7 +6,7 @@ import re
 import time
 import pymongo
 from multiprocessing import Pool
-# from urllib.Request import urllib2
+from urllib.Request import urllib2
 from bs4 import BeautifulSoup
 
 # 初始化爬取链接
@@ -25,7 +25,7 @@ def getHtml(url):
         'Cookie' : ''
     }
     r = requests.get(url, timeout=30, headers=headers)
-    r.raise_for_status
+    # r.raise_for_status
     r.encoding = r.apparent_encoding
     return r.text
 
