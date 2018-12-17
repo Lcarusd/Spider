@@ -227,6 +227,12 @@ print("==============正则表达式模式==============")
 # \W	匹配任何非单词字符。等价于 '[^A-Za-z0-9_]'。
 
 
+import re
+
+match = re.search(r'[1-9]\d{5}', 'BIT 100081')
+if match:
+	print(match.group(0))
+
 
 
 

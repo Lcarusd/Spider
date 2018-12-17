@@ -17,4 +17,5 @@ for title, img, cate in zip(titles, imgs, cates):
         "景点名称": title.get_text(),
         "标签 ": list(cate.stripped_strings),
     }
-    print data
+    # print data["景点名称"]
+    print data["标签 "][0]
