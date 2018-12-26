@@ -4,7 +4,9 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-start_url = 'http://www.meipai.com'
+start_url = 'https://www.meipai.com/medias/hot'
+
+# 抓取美拍前100的热门视频
 
 # 获取主页分类列表url
 def getHtmlText(start_url):
