@@ -13,6 +13,7 @@ import requests
 from lxml import etree
 import jieba.analyse
 
+# TODO:全文信息的爬取
 
 class Weibo:
     cookie = {"Cookie": "your cookie"}  # 将your cookie替换成自己的cookie
