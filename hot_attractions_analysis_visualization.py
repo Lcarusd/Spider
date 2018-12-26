@@ -3,6 +3,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+# 分析纽约热门景点并可视化
+
 url = 'https://cn.tripadvisor.com/Attractions-g60763-Activities-New_York_City_New_York.html'
 
 wb_data = requests.get(url)
