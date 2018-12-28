@@ -83,6 +83,7 @@ class PlunderBeauty(object):
             for i in tag:
                 url = re.findall(pattern, str(i.ul))
                 self.picture_series_urls = list(set(self.picture_series_urls + url))
+                print (url)
                 print (u"去重后数量：" + str(len(self.picture_series_urls)))
             self.picture_series_queue.task_done()
 
