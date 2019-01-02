@@ -43,6 +43,7 @@ class PlunderBeauty(object):
             thread.start()
 
         for item in tasks:
+            time.sleep(3)
             queue.put(item)
 
         queue.join()
