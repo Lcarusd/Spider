@@ -2,7 +2,7 @@
 
 import requests
 
-class Lyrics_Spider(object):
+class LyricsSpider(object):
     '''歌词爬取'''
 
     def request_param(self):
@@ -11,7 +11,7 @@ class Lyrics_Spider(object):
         }
         album_url = "https://music.163.com/#/artist/album?id=9621"
         s = requests.get(album_url, headers)
-        print s.text
+        print(s.text)
 
 
 class Lyric_Analysis(object):
@@ -19,5 +19,5 @@ class Lyric_Analysis(object):
     pass
 
 if __name__ == "__main__":
-    ls = Lyrics_Spider()
+    ls = LyricsSpider()
     ls.request_param()
