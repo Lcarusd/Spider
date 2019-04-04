@@ -71,17 +71,13 @@ class UserInfoSpider(object):
         self.data = {}
 
 def main():
-    # for _ in range(con_redis_0.llen("huochaihe_tasks_1") - 1):
-    for _ in range(5):
+    for _ in range(con_redis_0.llen("huochaihe_tasks_1") - 1):
         try:
             uis = UserInfoSpider()
             uis.start_process_data()
             uis.clear_param()
         except Exception as e:
-            log_msg = "[{0}]:{1}".format(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()), e)
-            print(log_msg)
-            with open(os.getcwd() + "/huochaihe/huochaihe.log", mode="a") as f:
-                f.write(log_msg + "\n")
+            #TODO：输出到控制台和日志
 
             main()
 
