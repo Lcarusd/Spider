@@ -1,5 +1,6 @@
-# Spider
-Spider practice applet.
+# Spider - 爬虫脚本
+
+一些有趣的爬虫小项目。
 
 西刺代理抓取；
 单用户微博抓取；
